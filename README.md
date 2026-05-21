@@ -1,9 +1,5 @@
 # 🇺🇸 Analyse NLP des Discours d'Investiture Présidentiels Américains
 
-
-
----
-
 ##  Objectif
 
 Analyser les 58 discours d'investiture des présidents américains (1789–2017),
@@ -18,7 +14,7 @@ de George Washington à Donald J. Trump, afin de comprendre :
 
 ##  Structure du projet
 
-TP_Presidentielle/
+presidential-speeches-analysis/
 ├── data/
 │   └── inaug_speeches.csv        # Dataset Kaggle (58 discours, 1789-2017)
 ├── notebooks/
@@ -33,7 +29,8 @@ TP_Presidentielle/
 │   ├── 03_wordcloud_global.png
 │   ├── 04_wordcloud_by_era.png
 │   ├── 05_tfidf_comparison.png
-│   └── 06_top_entities.png
+│   ├── 06_top_entities.png
+│   └── rapport_presidential_speeches.pdf
 ├── requirements.txt
 └── README.md
 
@@ -49,7 +46,7 @@ TP_Presidentielle/
 
 ---
 
-##  Installation
+## 🔧 Installation
 
 ### Prérequis
 - Python 3.10+
@@ -59,8 +56,8 @@ TP_Presidentielle/
 
 ```bash
 # 1. Cloner le repo
-git clone https://github.com/RayelenGuesmi/TP_Presidentielle.git
-cd TP_Presidentielle
+git clone https://github.com/RayelenGuesmi/presidential-speeches-analysis.git
+cd presidential-speeches-analysis
 
 # 2. Créer et activer l'environnement virtuel
 python -m venv venv
@@ -178,5 +175,4 @@ vérification des valeurs manquantes.
 
 ##  Licence
 Projet réalisé dans un cadre académique — données issues de Kaggle (domaine public).
-
-> **Auteur** : Rayelen Guesmi  
+> **Auteur** : Rayelen Guesmi 
